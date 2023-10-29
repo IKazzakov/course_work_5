@@ -54,6 +54,7 @@ class HeadHunterAPI():
         vacancies_by_parameters = []
         for vacancy in vacancies_data:
             vacancy_name = vacancy.get('name')
+            company_id = vacancy.get('employer')['id']
             vacancy_city = vacancy.get('area')['name']
             vacancy_salary = vacancy.get('salary')
             if not vacancy_salary:
@@ -71,6 +72,7 @@ class HeadHunterAPI():
 
             vacancy_card = {
                 'vacancy_name': vacancy_name,
+                'company_id': company_id,
                 'vacancy_city': vacancy_city,
                 'salary_from': salary_from,
                 'salary_to': salary_to,

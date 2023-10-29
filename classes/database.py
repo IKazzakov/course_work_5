@@ -93,7 +93,7 @@ class Database:
                             vacancy['vacancy_url']
                         )
                     )
-                print('Данные успешно добавлены')
+                print('Данные успешно добавлены', end='\n\n')
             conn.commit()
             conn.close()
         except (Exception, psycopg2.DatabaseError) as error:
