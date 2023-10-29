@@ -1,0 +1,42 @@
+[
+  {
+    "company_name": "hh.ru",
+    "company_HH_id": 1455
+  },
+  {
+    "company_name": "Яндекс",
+    "company_HH_id": 1740
+  },
+  {
+    "company_name": "СБЕР",
+    "company_HH_id": 3529
+  },
+  {
+    "company_name": "Wanted",
+    "company_HH_id": 5174849
+  },
+  {
+    "company_name": "МТС",
+    "company_HH_id": 3776
+  },
+  {
+    "company_name": "2ГИС",
+    "company_HH_id": 64174
+  },
+  {
+    "company_name": "Outlines Technologies",
+    "company_HH_id": 4305039
+  },
+  {
+    "company_name": "Ozon",
+    "company_HH_id": 2180
+  },
+  {
+    "company_name": "Мегафон",
+    "company_HH_id": 3127
+  },
+  {
+    "company_name": "Skyeng",
+    "company_HH_id": 1122462
+  }
+]
